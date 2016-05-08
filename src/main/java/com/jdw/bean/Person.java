@@ -5,6 +5,18 @@ public class Person {
 	private int age;
 	private int sex;
 	private String address;
+	/**
+	 * 在jdw分支之上新添加的属性
+	 */
+	private String phone;
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 
 	public String getAddress() {
 		return address;
