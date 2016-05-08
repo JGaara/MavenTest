@@ -15,6 +15,8 @@ public class Person {
 	 * 注意没有get set方法
 	 */
 	private String email;
+	
+	private String zipCode;
 
 	public String getEmail() {
 		return email;
