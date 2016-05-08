@@ -9,6 +9,20 @@ public class Person {
 	 * 在jdw分支之上新添加的属性
 	 */
 	private String phone;
+	
+	/**
+	 * 客户要求添加邮件属性，添加之后，添加到暂存区
+	 * 注意没有get set方法
+	 */
+	private String email;
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	public String getPhone() {
 		return phone;
